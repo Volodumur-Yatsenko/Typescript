@@ -1,0 +1,24 @@
+{
+  "name": "typescript-shop-generics",
+  "version": "1.0.0",
+  "description": "Розробка базових компонентів інтернет-магазину з використанням Generic типів у TypeScript",
+  "main": "dist/shop.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/shop.js",
+    "dev": "ts-node shop.ts"
+  },
+  "keywords": [
+    "typescript",
+    "generics",
+    "e-commerce",
+    "shop"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.9.3"
+  }
+}

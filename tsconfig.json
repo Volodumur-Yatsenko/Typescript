@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "ES6",                  // Вибір ECMAScript 6 як ціль
+      "module": "ES6",                  // Використовувати ECMAScript модулі
+      "rootDir": "./src",               // Шлях до директорії з TypeScript кодом
+      "outDir": "./dist",               // Шлях, куди буде зберігатися скомпільований JavaScript
+      "strict": true,                   // Увімкнення суворої перевірки типів
+      "sourceMap": true,                // Створення source maps для налагодження
+      "declaration": false,             // Не генерувати файли типів (.d.ts)
+      "moduleResolution": "node",       // Налаштування резолвера для модулів
+      "skipLibCheck": true              // Пропуск перевірки бібліотек
+    },
+    "include": ["src/**/*"],           // Включення всіх файлів з директорії src
+    "exclude": ["node_modules"]        // Виключення node_modules
+  }
+  

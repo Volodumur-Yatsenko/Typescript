@@ -1,0 +1,42 @@
+{
+  "compilerOptions": {
+    // File Layout
+    "rootDir": "./src",               // Директорія для вихідних файлів TypeScript
+    "outDir": "./dist",               // Директорія для скомпільованих файлів JavaScript
+
+    // Environment Settings
+    "module": "ESNext",           // Вибір модуля для Node.js
+    "target": "ES2020",            // Вибір ECMAScript версії (включає Array.prototype.includes)
+    "lib": ["ES2020", "DOM"],      // Додаємо DOM для доступу до console та браузерних API
+    "types": [],         
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,            // Розпізнавання модулів для Node.js
+
+    // Other Outputs
+    "sourceMap": true,                // Генерація source maps для дебагу
+    "declaration": true,              // Генерація .d.ts файлів для типів
+    "declarationMap": true,           // Генерація мап для .d.ts файлів
+
+    // Stricter Typechecking Options
+    "noUncheckedIndexedAccess": true, // Заборона на неперевірені індекси
+    "exactOptionalPropertyTypes": true, // Точні типи для необов'язкових полів
+
+    // Style Options
+    // "noImplicitReturns": true,      // Попередження про відсутність return
+    // "noImplicitOverride": true,     // Попередження про відсутність override
+    // "noUnusedLocals": true,         // Попередження про не використовувані змінні
+    // "noUnusedParameters": true,     // Попередження про не використовувані параметри
+    // "noFallthroughCasesInSwitch": true, // Попередження про fall-through у switch
+    // "noPropertyAccessFromIndexSignature": true, // Попередження про доступ до властивості через індекс
+
+    // Recommended Options
+    "strict": true,                  // Включає всі строгості TypeScript
+    "jsx": "react-jsx",              // Підтримка JSX для React
+    "verbatimModuleSyntax": false,    // Дозволяє змішаний синтаксис імпорту/експорту
+    "isolatedModules": true,         // Вмикає перевірку кожного файлу окремо
+    "noUncheckedSideEffectImports": true, // Перевірка імпортів з ефектами
+    "moduleDetection": "force",      // Примусове визначення модулів
+    "skipLibCheck": true             // Пропуск перевірки типів в бібліотеках
+  }
+}
